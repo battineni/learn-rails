@@ -9,18 +9,20 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'compass', '1.0.3'
+gem 'compass-rails', '2.0.4'
 # gem 'bcrypt', '~> 3.1.7'
-# gem 'unicorn' 
-
+# gem 'unicorn'
+gem 'puma'
 # learn-rails
 gem 'activerecord-tableless'
-gem 'compass-rails', '~> 2.0.alpha.0'
+#gem 'compass-rails', '~> 2.0.alpha.0'
 gem 'figaro'
 gem 'gibbon'
 gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
-gem 'zurb-foundation'
+gem 'foundation-rails'
 
 group :development, :test do
   #defaults 
